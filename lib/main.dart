@@ -4,5 +4,6 @@ import 'package:todo/screens/todo_list.dart';
 void main() {
   runApp(MaterialApp(
     home: TodoList(),
+    debugShowCheckedModeBanner: false,
   ));
 }
