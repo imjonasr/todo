@@ -46,7 +46,7 @@ class CustomTextField extends StatelessWidget {
             ),
             child: Icon(
               Icons.add,
-              color: Color(0xffededf7),
+              color: Color(0xff19172f),
             ),
           ),
         ),
