@@ -5,5 +5,8 @@ void main() {
   runApp(MaterialApp(
     home: TodoList(),
     debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+      fontFamily: 'Poppins',
+    ),
   ));
 }
