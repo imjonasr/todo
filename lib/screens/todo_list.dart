@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:todo/widgets/CustomTextField.dart';
+import 'package:todo/widgets/CustomTodoField.dart';
 
 class TodoList extends StatelessWidget {
-
   final TextEditingController controller = TextEditingController();
 
   @override
@@ -21,7 +21,6 @@ class TodoList extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Poppins',
                     color: Color(0xffededf7),
                   ),
                 ),
@@ -36,6 +35,7 @@ class TodoList extends StatelessWidget {
                 suffixBackgroundColor: Colors.deepPurple,
                 onChanged: (String text) {},
               ),
+              CustomTodoField(),
             ],
           ),
         ),
