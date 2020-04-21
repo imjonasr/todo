@@ -24,14 +24,12 @@ class CustomTextField extends StatelessWidget {
         controller: controller,
         style: TextStyle(
           fontSize: 16,
-          fontFamily: 'Poppins',
           color: Color(0xffededf7),
         ),
         decoration: InputDecoration(
           hintText: hint,
           hintStyle: TextStyle(
             fontSize: 16,
-            fontFamily: 'Poppins',
             color: Color(0xffb0b0b8),
           ),
           border: InputBorder.none,
